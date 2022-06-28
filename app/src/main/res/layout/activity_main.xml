@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_name" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/bt_NameClear"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_NClear" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_pos" />
+
+    <EditText
+        android:id="@+id/etPos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_pos"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/bt_PosClear"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_PClear" />
+
+
+    <Button
+        android:id="@+id/bt_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/bt_click" />
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textSize="25sp" />
+
+</LinearLayout>
